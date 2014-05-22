@@ -11,7 +11,7 @@ It's not much but still its nide.
 
 A few Screenshots-
 
-![Screen Shot](https://raw.githubusercontent.com/vi3k6i5/SocialSearch/master/screenshots/Clear.png)(http://vi3k6i5.blogspot.com/)
+![Screen Shot](https://raw.githubusercontent.com/vi3k6i5/SocialSearch/master/screenshots/Clear.png)
 
 
-![Screen Shot](https://raw.githubusercontent.com/vi3k6i5/SocialSearch/master/screenshots/football.png)(http://vi3k6i5.blogspot.com/)
+![Screen Shot](https://raw.githubusercontent.com/vi3k6i5/SocialSearch/master/screenshots/football.png)
