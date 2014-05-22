@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesome.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="search-heading">
+                    #SOCIAL
+                </div>
+
+                <div class="search-bar">
+                    <div class="input-group">
+                        <input id="he-sm-search" type="text" class="form-control he-sm-search" placeholder="#HASHTAGS/@MENTIONS/TOPICS" size="70">
+                        <span class="input-group-btn">
+                            <button id="refresh-result" class="btn btn-default search-btn"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="show-loading" class="show-loading hide">
+                <span>Loading... <i class="fa fa-refresh fa-spin"></i></span>
+            </div>
+            <div id="he-sm-result">
+                <div id="he-sm-discription-box" class="he-sm-discription-box">
+                    
+                </div>
+                <div id="he-sm-social">
+
+                </div>
+            </div> 
+        </div>
+        
+
+        <div id="outer-result-container-template" class="outer-result-container hide">
+            <div class="each-result-container">
+                <div class="each-result-source">
+                    <img src="${FAVICON}" height="24" width="24">
+                </div>
+                <div class="each-result-content">
+                    <div class="each-result-user">
+                        <a href="${USER_LINK}" target="_blank">${USER}</a>
+                    </div>
+                    <div class="each-result-title">
+                        <a href="${URL}" target="_blank">${TITLE}</a>
+                    </div>
+                    
+                    <div class="each-result-desciption">
+                        ${DESCRIPTION}
+                    </div>
+                    <div class="each-result-share">
+                        <div style="display: inline-block">
+                            <ul class="nav nav-pills share-list">
+                                <li>
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=${URL}" target="_blank" class="share-btn-fb">
+                                        <i class="fa fa-facebook"></i> 
+                                        facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/share?text=${URL}" class="share-btn-tw" target="_blank">
+                                        <i class="fa fa-twitter"></i> 
+                                        Twitter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/share?url=${URL}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                                        <i class="fa fa-google-plus"></i> 
+                                        Google+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each-result-timestamp">
+                            <abbr class="timeago" title="${TIMESTAMP}">${TIMESTAMP}</abbr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="timeago.js"></script>
+        <script type="text/javascript" src="magic.js"></script>
+    </body>
+</html>

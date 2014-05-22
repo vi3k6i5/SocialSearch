@@ -1,0 +1,104 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.search-heading{
+    margin: 10px 10px 10px 10px;
+    line-height: 64px;
+    font-size: 64px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    color: #00b7df;
+    font-weight: bold;
+}
+
+.search-bar {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.search-btn {
+    height: 34px!important;
+}
+
+.refresh-result{
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
+
+.he-sm-search {
+    padding: 10px 10px 10px 10px;
+}
+
+.show-loading {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.he-sm-discription-container {
+    margin: 0 auto;
+    width: 600px;
+    border-bottom: 1px solid;
+    border-color: #e1e8ed;
+    padding: 20px;
+}
+
+.he-sm-discription {
+    font-size: 16px;
+}
+
+.read-more-btn {
+    margin-top: 10px;
+}
+
+.each-result-container{
+    margin: 0 auto;
+    width: 600px;
+    border-bottom: 1px solid;
+    border-color: #e1e8ed;
+    padding: 7px;
+}
+
+.each-result-source{
+    display:inline-block;
+    width: 4%;
+    vertical-align: top;
+}
+
+.each-result-content{
+    display:inline-block;
+    width: 94%;
+    padding: 5px;
+}
+
+.each-result-user {
+    padding: 0px 0px 10px 0px;
+
+}
+
+.each-result-user a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.each-result-timestamp {
+    display:inline-block;
+    float: right;
+    color: rgb(170, 162, 162);
+    vertical-align: top;
+}
+
+.each-result-share a{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.share-list a {
+    margin-right: 20px;
+    padding: 0px!important;
+}
+
+.timeago {
+    font-size: 12px;
+}
